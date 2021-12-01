@@ -1,5 +1,4 @@
-FROM mjgargani/puppeteer:trybe1.0
+FROM todofrontend
 WORKDIR /
 COPY . .
-EXPOSE 3000
-CMD [ "npm", "start" ]
+CMD [ "npm", "test" ]
