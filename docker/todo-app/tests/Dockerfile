@@ -1,4 +1,4 @@
-FROM todofrontend:v1
+FROM todofrontend
 WORKDIR /
 COPY . .
 EXPOSE 3000
